@@ -1,9 +1,27 @@
- #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0;
+ .App {
+  
+  
   text-align: center;
-  background-color: antiquewhite;
+ 
+}
+.student-section{
+  display: flex;
+  justify-content: space-between;
+}
+.form{
+  margin-bottom: 15px;
+}
+
+.list{
+  border: 2px solid tomato;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.list-item {
+  margin-bottom: 15px;
 }
 /*
 
